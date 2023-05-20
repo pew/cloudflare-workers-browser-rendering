@@ -1,0 +1,14 @@
+name = "browser-worker"
+main = "src/index.ts"
+compatibility_date = "2023-03-14"
+node_compat = true
+workers_dev = true
+
+
+browser = { binding = "mybrowser", type = "browser" }
+r2_buckets  = [
+  { binding = "puppeteer", bucket_name = "puppeteer"}
+]
+
+[vars]
+bucketUrl = "https://pub-example.r2.dev"

@@ -4,17 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write  '*.{json,js}' 'src/**/*.{js,ts}'",
     "deploy": "wrangler deploy"
   },
   "author": "Jonas Wagner",
   "license": "MIT",
   "devDependencies": {
-    "@cloudflare/puppeteer": "^0.0.2-alpha",
-    "@cloudflare/workers-types": "^4.20230511.0",
-    "prettier": "^2.8.8",
-    "wrangler": "^3.0.0"
+    "@cloudflare/puppeteer": "^0.0.5",
+    "@cloudflare/workers-types": "^4.20230904.0",
+    "prettier": "^3.0.3",
+    "wrangler": "^3.7.0"
   },
   "dependencies": {
     "nanoid": "^4.0.2",

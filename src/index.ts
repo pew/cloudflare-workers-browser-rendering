@@ -18,7 +18,7 @@ export default {
       const page = await browser.newPage()
       await page.goto(url)
       img = (await page.screenshot({ fullPage: true })) as Buffer
-      const title = sanitize(await page.title())
+      const title = sanitize(await page.title(), { replacement: '-' })
       const id = nanoid(5)
 
       const titleString = `${title}_${id}.jpg`

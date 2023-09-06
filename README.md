@@ -16,7 +16,7 @@ npm i
 npx wrangler r2 bucket create my-bucket
 ```
 
-add it to `wrangler.toml`:
+rename `wrangler.example.toml` to `wrangler.toml` and add the r2 binding to it:
 
 ```toml
 r2_buckets  = [

@@ -13,7 +13,7 @@
     "@cloudflare/puppeteer": "^0.0.5",
     "@cloudflare/workers-types": "^4.20230904.0",
     "prettier": "^3.0.3",
-    "wrangler": "^3.7.0"
+    "wrangler": "^3.22.1"
   },
   "dependencies": {
     "nanoid": "^4.0.2",

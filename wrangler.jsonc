@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "browser-worker",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-03-11",
+  "workers_dev": true,
+  "r2_buckets": [
+    {
+      "binding": "artifacts",
+      "bucket_name": "my-bucket",
+    },
+  ],
+}

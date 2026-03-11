@@ -1,4 +1,9 @@
 wrangler.toml
+.wrangler/
+.wrangler-home/
+.dev.vars
+.dev.vars.*
+worker-configuration.d.ts
 
 # Logs
 logs
